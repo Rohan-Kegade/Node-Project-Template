@@ -15,6 +15,7 @@
     "express": "^5.2.1",
     "http-status-codes": "^2.3.0",
     "nodemon": "^3.1.11",
-    "prettier": "^3.7.4"
+    "prettier": "^3.7.4",
+    "winston": "^3.19.0"
   }
 }

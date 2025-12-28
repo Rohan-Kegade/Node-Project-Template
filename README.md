@@ -1,0 +1,1 @@
+This is a template for NodeJs project. Clone this repository to get basic structure to start working on your project.

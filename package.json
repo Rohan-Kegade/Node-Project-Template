@@ -1,6 +1,7 @@
 {
   "name": "node-project-template",
   "version": "1.0.0",
+  "type": "commonjs",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +12,7 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "http-status-code": "^2.1.0",
+    "http-status-codes": "^2.3.0",
     "nodemon": "^3.1.11"
   }
 }

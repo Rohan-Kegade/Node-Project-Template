@@ -1,6 +1,12 @@
-import { PORT } from "./config/env-config.js";
-import app from "./app.js";
+const express = require("express");
 
-app.listen(PORT, () => {
-  console.log(`App is listening on port: ${PORT}`);
+const { ServerConfig } = require("./config");
+const apiRoutes = require('./routes')
+
+const app = express();
+
+app.use("/api", apiRoutes);
+
+app.listen(ServerConfig.PORT, () => {
+  console.log(`App is listening on port: ${ServerConfig.PORT}`);
 });
